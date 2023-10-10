@@ -1,0 +1,51 @@
+* {
+    margin: 10px;
+}
+
+body {
+
+}
+
+h1 {
+    font-size: 72px;
+}
+
+nav {
+    background-color: rgb(163, 228, 163);
+    font-size: 24px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.links {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    padding: 2px;
+}
+
+.links li {
+    padding-inline: 5px;
+}
+
+.parts {
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+}
+
+.card h2 {
+    font-size: 36px;
+    justify-content: flex-start;
+    border: solid 1px black;
+    padding: 5px;
+}
+
+.card p {
+    font-size: 18px;
+}
