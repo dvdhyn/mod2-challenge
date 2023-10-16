@@ -1,51 +1,44 @@
 * {
     margin: 10px;
-}
-
-body {
-
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 h1 {
-    font-size: 72px;
+    font-size: 42px;
 }
 
 nav {
     background-color: rgb(163, 228, 163);
-    font-size: 24px;
-}
-
-a {
-    text-decoration: none;
+    font-size: 14px;
 }
 
 .links {
     display: flex;
-    justify-content: flex-end;
+    flex-wrap: nowrap;
+    justify-content: center;
     list-style-type: none;
     padding: 2px;
+    white-space: nowrap;
 }
 
-.links li {
-    padding-inline: 5px;
+.links a {
+    text-decoration: none;
 }
 
 .parts {
-
-}
-
-.card {
     display: flex;
     flex-direction: column;
+    font-size: 18px;
 }
 
-.card h2 {
-    font-size: 36px;
-    justify-content: flex-start;
+.parts h2 {
+    font-size: 28px;
     border: solid 1px black;
     padding: 5px;
+    text-align: center;
 }
 
-.card p {
-    font-size: 18px;
+.parts ul {
+    list-style-type: none;
+    text-align: center;
 }
