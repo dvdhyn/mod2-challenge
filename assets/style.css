@@ -68,6 +68,7 @@ nav {
     text-align: center;
 }
 
+/* hover effect decreases opacity in active image */
 #projects img:hover {
     opacity: 0.5;
 }
