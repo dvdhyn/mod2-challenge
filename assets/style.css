@@ -68,6 +68,10 @@ nav {
     text-align: center;
 }
 
+#projects img:hover {
+    opacity: 0.5;
+}
+
 /* organizes unordered list items for id "contact" */
 #info {
     display: flex;
